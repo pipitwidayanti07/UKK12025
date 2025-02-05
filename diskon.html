@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=egde">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="./style.css">
+	<script src="main.js" defer></script>
+	<title>Diskon Calculator</title>
+</head>
+<body>
+	<div class="card">
+		<h1>Diskon Calculator</h1>
+		<div class="input-item">
+		<label for="discount-percentage">Nama Barang</label>
+		<select name="Nama barang" id="discount-barang">
+			<option value="Baju">Baju</option>
+			<option value="Celana">Celana</option>
+			<option value="Kerudung">Kerudung</option>
+			<option value="Sandal">Sandal</option>
+			<option value="Sepatu">Sepatu</option>
+		</select>
+	</div>
+		<form action="#">
+		<div class="input-item">
+			<label for="amount">Harga asli</label>
+			<input type="text" id="amount">
+		</div>
+
+		<div class="input-item">
+			<label for="discount-percentage">Diskon %</label>
+			<input type="text"id="discount-percentage">
+				
+		</div>
+		<button type="submit" class="calculate">Perhitungan</button>
+
+		<div class="input-item">
+			<label for="discount-amount">Hasil diskon:</label>
+			<input type="text" id="discount-amount" disabled>	
+		</div>
+
+		<div class="input-item">
+			<label for="pay" aria-disabled="true"> Harga setelah diskon:</label>
+			<input type="text" id="pay" disabled>
+		</div>
+
+		
+		<input type="reset" value="Reset" class="reset">
+		<li> <a href="beranda.html"><i class="icon icon-sign-out"></i> <span>back</span></a> </li>
+		</form>	
+	</div>
+</body>
+</html>
+
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=egde">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="./style.css">
+	<script src="main.js" defer></script>
+	<title>Diskon Calculator</title>
+</head>
+<body>
+	<div class="card">
+		<h1>RINCIAN BAYAR</h1>
+		<form action="#">
+		   <div class="input-item">
+			<label for="Potongan"> Total harga diskon:</label>
+			<input type="text" id="Potongan" disabled>
+		</div>
+
+		<div class="input-item">
+			<label for="Hasil" aria-disabled="true"> Total bayar:</label>
+			<input type="text" id="Hasil" disabled>
+		</div>
+
+		<h2><div><button onclick="window.print()"> print</button></div></h2>
+	    </form>
+	</div>
+</body>
+</html>
+
